@@ -27,7 +27,7 @@ function newStats(): void {
       selapsed = data.now_playing.elapsed;
     }
   };
-  xhttp.open("GET", "https://live.highlowradio.co.uk/api/nowplaying/1", true);
+  xhttp.open("GET", "https://audio.highlowradio.co.uk/api/nowplaying/1", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
